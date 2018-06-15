@@ -1,0 +1,47 @@
+[
+  {
+    "id": 2643743,
+    "name": "London",
+    "country": "GB",
+    "coord": {
+      "lon": -0.13,
+      "lat": 51.51
+    }
+  },
+  {
+    "id": 690791,
+    "name": "Ukraine",
+    "country": "UA",
+    "coord": {
+      "lon": 32,
+      "lat": 49
+    }
+  },
+  {
+    "id": 703447,
+    "name": "Misto Kyyiv",
+    "country": "UA",
+    "coord": {
+      "lon": 30.516666,
+      "lat": 50.433334
+    }
+  },
+  {
+    "id": 5128581,
+    "name": "New York",
+    "country": "US",
+    "coord": {
+      "lon": -74.005966,
+      "lat": 40.714272
+    }
+  },
+  {
+    "id": 6455259,
+    "name": "Paris",
+    "country": "FR",
+    "coord": {
+      "lon": 2.35236,
+      "lat": 48.856461
+    }
+  }
+]
