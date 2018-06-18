@@ -1,9 +1,13 @@
 package edu.dens.restassured;
 
+import edu.dens.common.RegressionTest;
+import edu.dens.common.SmokeTest;
 import edu.dens.api.LocationData;
 import edu.dens.api.model.Location;
+import net.serenitybdd.junit.runners.SerenityRunner;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
+import org.junit.runner.RunWith;
 
 import static edu.dens.api.data.Applications.KEY_1;
 import static io.restassured.RestAssured.given;

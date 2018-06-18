@@ -7,11 +7,14 @@ public abstract class AbstractApiTest {
 
     protected final String API25WEATHER = "/data/2.5/weather";
 
+    static {
+    }
 
     @Before
     public void setUpBeforeTest() {
         RestAssured.reset();
-        RestAssured.baseURI = System.getProperty("api.url", "http://sample.openweathermap.org");
+        RestAssured.baseURI = System.getProperty("api.url", "http://api.openweathermap.org");
+
     }
 
 }

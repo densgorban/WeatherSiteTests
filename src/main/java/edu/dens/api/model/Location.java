@@ -7,6 +7,9 @@ public class Location {
     private String country;
     private Coordinate coord;
 
+    public Location() {
+    }
+
     public Location(int id, String name, String country, Coordinate coord) {
         this.id = id;
         this.name = name;
